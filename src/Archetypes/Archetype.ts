@@ -15,12 +15,12 @@ abstract class Archetype {
     return this.name;
   }
 
-  get special():string {
-    return this.special;
+  get special():number {
+    return this._special;
   }
 
   get cost():number {
-    return this.cost;
+    return this._cost;
   }
 
   static createdArchetypeInstances():number {
