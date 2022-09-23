@@ -1,6 +1,6 @@
 import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
-import Figther from './Fighter';
+import Figther, { SimpleFighter } from './Fighter';
 import Race, { Elf } from './Races';
 import getRandomInt from './utils';
 
@@ -77,7 +77,7 @@ class Character implements Figther {
 
   special?(): void;
 
-  attack(enemy: Figther): void {
+  attack(enemy: Figther | SimpleFighter): void {
     enemy.receiveDamage(this.strength);
   }
 
