@@ -5,7 +5,7 @@ Este projeto trata-se de uma simulação de um jogo de RPG sigla em inglês para
 
 ## POO
 
-A aplicação se apoia no principios do Poo tais como:
+A aplicação se apoia nos principios do POO tais como:
 - Abstração: Desenvolver a aplicação pensando em quem for consumir, abstraindo de detalhes técnicos que não são relevantes para quem for utiliza-la.
 - Encapsulamento: Expor o mínimo possível de atributos da classe ao meio exterior a ela. Atualizações e modificações devem ser feitas de forma nativa utilizando métodos internos da própria classe. 
 - Herança: Classes filhas ou sub classes devem ser capazes de herdar métodos e atributos da super classe.
