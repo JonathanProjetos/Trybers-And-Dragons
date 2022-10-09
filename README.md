@@ -15,7 +15,7 @@ A aplicação se apoia nos principios do POO tais como:
 
 A aplicação segue os conceitos de paradigma SOLiD, porem não ao pé da letra. O uso foi feito usando o conhecimento que tenho ate o momento =D "1 semana", é em um futuro não muito distante quero discutir o assunto com mais liberdade e bagagem. Gostaria de compartilha de forma breve os princípios do paradigma SOLID.
 
-- "S" Single Responsibility Principle: Entidade de software deve ter uma unica responsabilidade única.
+- "S" Single Responsibility Principle: Entidade de software deve ter uma unica responsabilidade.
 - "O" Open/Closed Principle (OCP): Entidade de software deve está aberta para extenção e fechada para modificação.
 - "L" Liskov Substitution Principle: Objetos em um programa devem ser substituíveis por instâncias de seus subtipos, sem alterar a funcionalidade do programa.
 - "I" Interface Segregation Principle - ISP: Nenhum cliente deve ser forçado a depender de métodos que não utiliza.
